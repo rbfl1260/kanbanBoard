@@ -5,8 +5,8 @@ import "styled-components";
 declare module "styled-components" {
   //styled component의 테마 정의를 확장하는 것임.
   export interface DefaultTheme {
-    textColor: string;
+    boardColor: string;
     bgColor: string;
-    accentColor: string;
+    cardColor: string;
   }
 }
